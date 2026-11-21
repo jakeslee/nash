@@ -1,0 +1,21 @@
+# AT&T IMS / Wi-Fi Calling 核心
+DOMAIN-SUFFIX,atl.net
+DOMAIN-SUFFIX,att.net
+DOMAIN-SUFFIX,att.com
+DOMAIN-SUFFIX,mobilecsf.att.com
+# 3GPP IMS 标准协议
+DOMAIN-SUFFIX,3gpp.org
+DOMAIN-SUFFIX,ims.mnc410.mcc310.3gppnetwork.org
+DOMAIN-SUFFIX,epdg.epc.mnc410.mcc310.3gppnetwork.org
+
+# AT&T IP段走代理
+# AT&T核心网IP
+IP-CIDR,12.0.0.0/8
+IP-CIDR,12.129.0.0/16
+IP-CIDR,12.130.0.0/16
+IP-CIDR,192.205.34.0/24
+IP-CIDR,135.25.0.0/16
+IP-CIDR,135.26.0.0/16
+# ePDG网关（Wi-Fi Calling入口）
+IP-CIDR,12.90.152.0/24
+IP-CIDR,12.91.152.0/24
